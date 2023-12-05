@@ -46,7 +46,7 @@ names: ['arroz', 'carne', 'feijao', 'frango', 'ovo', 'salada']
 No qual, estão setados os diretórios contendo as imagens de treino, validação e teste (`train`, `val`, `test`), além do número de classes (`nc`), e os nomes das classes em si (`names`). 
 ## Rodando
 
-Utilize uma instância do Google Colab, e altere o ambiente de execução para T4 GPU, visando um melhor desempenho do ambiente.
+Execute o arquivo `.ipynb` localmente por meio de algum ambiente virtual que suporte o Jupyter ou até mesmo utilize uma instância do Google Colab. Altere o ambiente de execução para T4 GPU, visando um melhor desempenho do ambiente.
 
 Execute linha por linha até o comando abaixo:
 

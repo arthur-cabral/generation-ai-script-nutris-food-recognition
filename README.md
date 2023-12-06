@@ -48,6 +48,12 @@ No qual, estão setados os diretórios contendo as imagens de treino, validaçã
 
 Execute o arquivo `.ipynb` localmente por meio de algum ambiente virtual que suporte o Jupyter ou até mesmo utilize uma instância do Google Colab. Altere o ambiente de execução para T4 GPU, visando um melhor desempenho do ambiente.
 
+Inicialmente, altere o diretório em que as runs ficarão salvas, por meio do seguinte comando no parametro `project`:
+
+```
+save_dir = '/content/drive/MyDrive/nutris yolo cnn/V1/runs'
+``` 
+
 Execute linha por linha até o comando abaixo:
 
 ```
@@ -77,11 +83,10 @@ model.predict(save_txt=True,  conf=0.5, project=save_dir, source='/content/drive
 Todos os resultados obtidos podem ser visualizados dentro do diretório `/runs`, o qual contém matrizes de confusão, curvas de F1, resultados em gráfico, além do próprio modelo que poderá ser utilizado em qualquer aplicação.
 
 Matriz de confusão:
-![confusion_matrix_normalized](https://github.com/arthur-cabral/generation-ai-script-nutris-food-recognition/assets/61799587/8017b366-588d-4700-a703-466266464831)
+![Confusion Matrix Normalized]()
 
 Curva de F1:
-![F1_curve](https://github.com/arthur-cabral/generation-ai-script-nutris-food-recognition/assets/61799587/68270292-e14d-450d-b0b3-7ef55414ad25)
+![F1 Curve]()
 
 Lote de treino:
-![val_batch0_labels](https://github.com/arthur-cabral/generation-ai-script-nutris-food-recognition/assets/61799587/86af7a50-660b-4c18-9364-fc8ae62a1a1c)
-
+![Train batch]()
